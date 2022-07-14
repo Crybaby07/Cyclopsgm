@@ -1,0 +1,161 @@
+body{
+    font-family: 'Kanit', sans-serif;
+    margin:0 ;
+    background-color: #fcfcfc;
+}
+
+
+.sec-a{
+    display: flex;
+    width: 100%;
+    padding-bottom: 90px;
+    margin-bottom: 30px;
+    background-image: url(images/banner1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.header{
+    width: 30%;
+    margin-top: 17%;
+    margin-left: 15%;
+    color: #fcfcfc;
+}
+
+.header h1{
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.header h2{
+    font-weight: 700;
+}
+
+.highlight{
+    color: #48cae4;
+}
+
+.sec-a img{
+    width: 150%;
+    margin-top: 25%;
+    margin-left: 20%;
+}
+
+.button{
+    text-decoration: none;
+    color: #fcfcfc;
+    background-color: #48cae4;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.button:hover{
+    text-decoration: none;
+    color: #fcfcfc;
+    background-color: #5aa9e6;
+    padding: 6px 17px;
+    border-radius: 6px;
+    transition: 0.3s;
+    cursor: pointer;  
+}
+
+
+.aboutme{
+    display: flex;
+    width: 100%;
+    padding: 80px 0;
+    background-image: url(images/banner2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.aboutme img{
+    margin: 10vh 0 0 25vh;
+    width: 100%;
+}
+
+.info{
+    width: 35%;
+    color: #fcfcfc;
+    margin: 30vh 0 0 30vh;
+}
+
+.aboutme h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+
+
+.sec-c{
+    text-align: center;
+    color: #343a40;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.myworks{
+    display: flex;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.myworks img{
+    width: 100%;
+    border-radius: 25px;
+    
+}
+
+.works{
+    box-shadow: 20px 20px 30px #323031;
+    margin: 80px 30px;
+    padding:20px 10px 0 10px;
+    border-left: 1px solid #7f7f7f;
+    border-top: 1px solid #7f7f7f;
+    border-radius: 25px;
+}
+
+
+
+
+.sec-d{
+   text-align: center;
+   font-size: 40px;
+   color: #343a40;
+}
+
+.social{
+    display: flex;
+}
+
+.social img{
+    width: 30%;
+    border-radius: 200px;
+    
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    border-radius: 200px;
+}
+
+.item:hover{
+    display: flex; 
+    margin: 45px;
+    transition: 0.5s;
+    
+}
+
+
+
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #cccccc;
+}
+ 
+
+
